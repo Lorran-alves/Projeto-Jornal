@@ -1,0 +1,144 @@
+@font-face {
+    font-family:Fontelogo ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../imagens/baner1.jpg") repeat-x ; 
+}
+/*** INICIO TOPOO***/
+#container{
+    width: 920px;
+    margin: 0px auto;
+}
+#topo{
+height: 260px;
+}
+#topo h1{
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 80px;
+    line-height: 50px;
+    margin-top: 200px;
+    color: white;
+}
+.branco{
+    color: black;
+}
+/** MENU TOPO***/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topo ul li {
+    float: left;   
+    background: orange;
+    margin-top: 120px;
+    border-radius: 8px;
+    margin-right: 5px;
+ }
+#navegacao-topo li a{
+    display: block;
+     padding: 0 2em;
+     line-height: 3em;
+     text-decoration: none;
+     color: black;
+ }
+ #topo ul li:hover{
+    background:  rgb(252, 166, 8);
+ }
+ #topo ul li a:hover{
+    background:rgb(168, 110, 2);
+    color: white;
+    border-radius: 10px;
+ }
+ #topo .primeiro {
+    margin-left: 65px;
+ }
+ /*** FIM ///TOPOO***/
+ /**INICIO CONTEUDO ****/
+ #conteudo{
+    background-color: #e7e7ff;
+    float: left;
+    margin: 60px auto 0px auto;
+    border: 3px solid rgb(185, 179, 179);
+    width: 920px;
+ }
+ #conteudo a{
+    color: rgb(252, 183, 55);
+    text-decoration: none;
+    font-weight: bolder;
+ }
+ #conteudo a:hover{
+    color: black;
+ } 
+ #conteudo-primario{
+    width: 400px;
+    float: left;
+    margin:20px 0px 10px 3px;
+    background-color:#ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+ }
+ #conteudo-secundario{
+    width: 250px;
+    float: left;
+    margin:20px 10px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: #ccc;
+} 
+#conteudo-terciario{
+    width: 240px;
+    float: left;
+    margin: 20px 7px 10px 0px;
+    background-color: #ccc ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+}
+/***** inicio rodape *****/
+#rodape{
+    background-color: rgb(83, 83, 182);
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+/***** inicio formatação conteudo****/
+.imagem-caixa{
+    padding: px;
+    width: 94%;
+    margin-left: 2%;
+    border: 3px solid rgb(155, 155, 155);
+}
+ h2{
+    background-color: rgb(165, 142, 247);
+    padding:5px;
+    margin: 20px auto;
+    font-family: Fontelogo;
+    text-indent: 10px;
+}
+p{
+    padding: 5px;
+    text-indent: 20px;
+    text-align: justify;
+}
+h3{
+    padding: 5px;
+}
+p.fim-p{
+    padding-bottom: 45px;
+}
+p.fim-1{
+    padding-bottom: 23px;
+}
+p.fim-3{
+    padding-bottom: 17px;
+}
+
+
+
+
+
